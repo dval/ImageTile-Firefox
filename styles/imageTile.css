@@ -1,0 +1,21 @@
+body {
+    /* Set the initial background size and no repeat as it will be tiled by the JS */
+    min-height: 200vh;
+    background-size: 50% 50%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevents scrollbars if the image is larger than the window */
+}
+
+input[type=range] {
+    /* Styling for the scaling slider */
+    width: 300px;
+    height: 25px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000; /* Ensure the slider is always on top */
+    cursor: pointer;
+}
+
+/* Additional styling can be added here for other elements or effects */

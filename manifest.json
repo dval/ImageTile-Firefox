@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Image Tiler",
+    "version": "1.0",
+    "description": "Right-click to tile any image across a new tab with adjustable scaling.",
+    "icons": {
+      "48": "icons/icon.png"
+    },
+    "permissions": [
+      "contextMenus",
+      "tabs",
+      "activeTab"
+    ],
+    "background": {
+      "scripts": ["background_scripts/background.js"]
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content_scripts/imageTile.js"]
+      }
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["styles/imageTile.css"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
+  
