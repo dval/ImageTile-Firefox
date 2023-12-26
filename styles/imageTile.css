@@ -1,7 +1,8 @@
 body {
     /* Set the initial background size and no repeat as it will be tiled by the JS */
     min-height: 200vh;
-    background-size: 50% 50%;
+    background-size: 50%;
+    background-clip: border-box;
     margin: 0;
     padding: 0;
     overflow: hidden; /* Prevents scrollbars if the image is larger than the window */

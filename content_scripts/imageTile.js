@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Adjust the size of the background image based on the slider
     slider.addEventListener('input', () => {
         const scale = slider.value;
-        document.body.style.backgroundSize = `${scale}% ${scale}%`;
+        document.body.style.backgroundSize = `${scale}%`;
     });
 
     document.body.appendChild(slider);
