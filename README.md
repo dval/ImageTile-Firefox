@@ -7,4 +7,6 @@ I was inspired by the Chrome extension `Tile View`.
 
 Similar functionality and ease of use. Slightly different asthetic. 
 
+![Use](use-thumbnail.png)
+
 ![Thumbnail](thumbnail.png)
