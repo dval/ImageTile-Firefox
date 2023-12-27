@@ -6,6 +6,12 @@
     "icons": {
       "48": "icons/icon.png"
     },
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "ImageTile@example.com",
+        "strict_min_version": "118.0"
+      }
+    },    
     "permissions": [
       "contextMenus",
       "tabs",
